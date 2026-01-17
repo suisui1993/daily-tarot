@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>每日塔罗指引</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+    <h1>🔮 今日塔罗指引</h1>
+    <p class="desc">请静心片刻，选择你想询问的主题</p>
+
+    <select id="questionType">
+      <option value="love">💗 感情</option>
+      <option value="career">💼 事业</option>
+      <option value="healing">🌿 疗愈</option>
+      <option value="energy">✨ 今日能量</option>
+    </select>
+
+    <button id="drawBtn">抽取今日塔罗</button>
+
+    <div id="cards" class="cards"></div>
+
+    <p class="tip">* 每一次抽牌，都是一次自我对话</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
